@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbars on elements that use this class (still scrollable) */
+/* .no-scrollbar::-webkit-scrollbar { display: none; } */
+/* .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; } */
+
+html, body, #root {
+    height: 100vh;
+}
+
+body {
+    overflow: hidden;
+}
